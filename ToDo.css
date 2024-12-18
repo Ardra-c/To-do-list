@@ -1,0 +1,132 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#d1 {
+    width: 500px;
+    border: 2px solid #4a4e69;
+    border-radius: 15px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #22223b;
+    margin-bottom: 20px;
+}
+#t1 {
+    width: calc(100% - 140px); /* Adjust input width */
+    height: 40px;
+    border: 2px solid #4a4e69;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    display: inline-block; /* Ensures it stays inline */
+    vertical-align: middle; /* Aligns with the button */
+}
+
+#add {
+    height: 44px; /* Slightly taller than the input for aesthetic */
+    width: 120px;
+    background-color: #4a4e69;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Inline with input field */
+    vertical-align: middle; /* Aligns vertically with input field */
+    margin-left: 10px; /* Space between input and button */
+}
+
+#add:hover {
+    background-color: #9a8c98;
+}
+
+/* Wrapper for input and button */
+#input-container {
+    display: flex; /* Ensures the input and button stay on the same line */
+    align-items: center; /* Aligns them vertically */
+    justify-content: center; /* Centers the input and button horizontally */
+    margin-bottom: 20px; /* Adds spacing below the input container */
+}
+
+
+
+#d2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#d3, #d4 {
+    width: 48%;
+    background-color: #f4f4f9;
+    border: 2px solid #4a4e69;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 20px;
+    color: #4a4e69;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid #4a4e69;
+    padding-bottom: 5px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c9ada7;
+    color: #22223b;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: transform 0.2s;
+}
+
+.task:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.task button {
+    background-color: #4a4e69;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.task button:hover {
+    background-color: #9a8c98;
+}
+
+
+
+
+button {
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
+    background-color: palevioletred; 
+}
